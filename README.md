@@ -18,7 +18,7 @@ git clone https://github.com/USC-GVL/Agent-Driver.git
 3. Move `agentdriver`, `assets`, `data`, `experiments`, `scripts` folders, and `requirements.txt` from inside the original Agent-Driver project to this project, **but not the `Agent-Driver` folder itself**. You should be able to see `agentdriver`, `assets`, `data`, `experiments`, `scripts` folders beside `agentdriver_patch`, `scripts_patch` and `data_patch` folders in this project now.
 
 4. Follow the *Installation* and *Data Preparation* guide on https://github.com/USC-GVL/Agent-Driver, and get all the data prepared.
-5. **Patch the original code with our code**: Move everything inside `agentdriver_patch` folder to `agentdriver` folder. Move everything inside `scripts_patch` folder to `scripts` folder. Overwrite all existing files. Move everything inside `data_patch` folder to `data` folder. Overwrite all existing files. Now you can safely delete `agentdriver_patch`, `scripts_patch` and `data_patch` folder.
+5. **Patch the original code with our code**: Move everything inside `agentdriver_patch` folder to `agentdriver` folder. Move everything inside `scripts_patch` folder to `scripts` folder. Move everything inside `data_patch` folder to `data` folder. Overwrite all existing files. Now you can safely delete `agentdriver_patch`, `scripts_patch` and `data_patch` folder.
 
 > The filename typo `planning_prmopts` is deliberate to ensure capability with the original code. DO NOT FIX IT.
 
